@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-tutorial/precache-manifest.da7270856cb648b7c72f45c40b30f42b.js"
+  "/sebastiao-snackbar/precache-manifest.106caeed62a71e8c56561d7b59be684d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-tutorial/index.html", {
+workbox.routing.registerNavigationRoute("/sebastiao-snackbar/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
